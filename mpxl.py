@@ -10,7 +10,7 @@ def create_window():
     # Always on top
     win.wm_attributes("-topmost",True)
     # Set window transparency (requires a window manager that supports it)
-    win.attributes('-alpha', 0.5)
+    # win.attributes('-alpha', 0.5)
     # Configure border style and color
     win.configure(highlightbackground="red", highlightcolor="red", highlightthickness=1)
     return win
